@@ -10,10 +10,10 @@
 <body>
 
 <div class="principal">
-<h1>subir archivo</h1>
+<h1>Upload File</h1>
 <form action="" id="form_subir">
     <div class="form-1-2">
-        <label for="">Archivo a subir:</label>
+        <label for="">File Upload:</label>
         <input type="file" name="archivo" required>
     </div>
     <div class="barra">
@@ -25,6 +25,19 @@
         <input type="submit" class="btn" value="enviar">
         <input type="button" class="cancel" id="cancelar" value="cancelar">
     </div>
+
+    <div class="DownloadOption">
+        <h4>Download Section</h4>
+        <button id="download-button">Download</button>
+ 
+         <a id="save-file">Save File</a>
+         <progress id="progress" value="0"></progress>
+    </div>
+    
+    
+     
+   
+
 </form>
 </div>
     <script src="js/main.js"></script>
